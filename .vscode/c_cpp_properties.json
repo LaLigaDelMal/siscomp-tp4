@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/kernels/5.17.12-300.fc36.x86_64/arch/x86/include",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/src/kernels/5.17.12-300.fc36.x86_64/include/",
+                "/usr/lib/gcc/x86_64-redhat-linux/12/include/",
+                "/usr/src/kernels/5.17.12-300.fc36.x86_64/arch/x86/include/generated"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__"
+            ],
+            "compilerPath": "/usr/lib64/ccache/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
