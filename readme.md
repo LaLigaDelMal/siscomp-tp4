@@ -1,3 +1,5 @@
+BORRAR (DESPUES): RESPUESTAS [ACA](https://tldp.org/LDP/lkmpg/2.4/lkmpg.pdf)
+
 ## Desafío 1 
 
 Revisar la [bibliografia](https://access.redhat.com/documentation/es-es/red_hat_enterprise_linux/8/html/managing_monitoring_and_updating_the_kernel/signing-kernel-modules-for-secure-boot_managing-kernel-modules) para impulsar acciones que permitan mejorar la seguridad del kernel, concretamente: evitando cargar módulos que no estén firmados.
@@ -43,5 +45,17 @@ Ubuntu:
 Fedora:
 
 `sudo dnf install kernel-devel kernel-headers`
+
+### Comandos útiles
+
+`sudo insmod <modulo>.ko`
+
+`sudo lsmod | grep mimodulo`
+
+`dmesg | tail`
+
+`sudo rmmod mimodulo`
+
+`modinfo mimodulo.ko`
 
 Docu Rasp
