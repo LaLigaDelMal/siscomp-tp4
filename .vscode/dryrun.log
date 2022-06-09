@@ -1,4 +1,4 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/adriel/Proyectos/SISCOMP/4'
 make -C /lib/modules/5.17.12-300.fc36.x86_64/build M=/home/adriel/Proyectos/SISCOMP/4 modules
 make: Leaving directory '/home/adriel/Proyectos/SISCOMP/4'

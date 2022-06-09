@@ -3,7 +3,13 @@
         "kernel.h": "c",
         "module.h": "c",
         "stat.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "uaccess.h": "c",
+        "math64.h": "c",
+        "interrupt.h": "c",
+        "init.h": "c",
+        "div64.h": "c",
+        "fs.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
